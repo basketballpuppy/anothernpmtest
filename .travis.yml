@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "18"
+dist: jammy
+
+script:
+  - true
+  - npm test
+#before_install:
+#  - git remote set-url origin https://basketballpuppy:$GH_TOKEN@github.com/basketballpuppy/testnpm.git
+#  - git config --global credential.helper store
+#  - git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "https://github.com/"
+deploy:
+  provider: npm
+  email: "erikakuntarechopark@gmail.com"
+  api_key: "$AUTH_TOKEN"
+  on:
+    branch: main
