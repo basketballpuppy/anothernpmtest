@@ -14,5 +14,8 @@ deploy:
   provider: npm
   email: "erikakuntarechopark@gmail.com"
   api_key: "$API_TOKEN"
+  edge: true
+  access: public
+  registry: "https://registry.npmjs.org"
   on:
     branch: main
