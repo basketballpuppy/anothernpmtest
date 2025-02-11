@@ -13,6 +13,6 @@ script:
 deploy:
   provider: npm
   email: "erikakuntarechopark@gmail.com"
-  api_key: "$AUTH_TOKEN"
+  api_key: "$API_TOKEN"
   on:
     branch: main
