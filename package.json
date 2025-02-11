@@ -3,5 +3,17 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"true\""
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basketballpuppy/anothernpmtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basketballpuppy/anothernpmtest/issues"
+  },
+  "homepage": "https://github.com/basketballpuppy/anothernpmtest#readme",
+  "description": ""
 }
